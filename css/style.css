@@ -1,38 +1,40 @@
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
 body {
 font-family: Tahoma, serif;
 }
-h1 {
-color: #199999;
-text-shadow: 2px 2px #558ABB;
+p {
+font: 17px Arial, sans-serif;
+font-family: Georgia, "Times New Roman";
+}
+
+h3 {
+margin: 1% 0;
+font: 20px Arial, sans-serif;
+font-family: Georgia, "Times New Roman";
+}
+
+details {
+  margin: 2% 0;
+}
+
+p4 {
+font: 20px Arial, sans-serif;
 font-family: Georgia, "Times New Roman";
 outline: 2px solid #000;
 }
 
 a {
+  text-decoration: none;
   color: red;
   text-shadow: 2px 2px #558ABB;
   font-family: Georgia, "Times New Roman";
   outline: 2px solid #000;
-  font-size: 30px;
+  font-size: 40px;
 }
-
 a:hover {
-  color: blue;
+  color: yellow;
   text-shadow: 2px 2px #558ABB;
   font-family: Georgia, "Times New Roman";
   outline: 2px solid #000;
-  font-size: 30px;
+  font-size: 40px;
 }
+

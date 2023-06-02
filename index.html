@@ -5,25 +5,28 @@
     <title>Резюме</title>
     <link rel="stylesheet" href="style.css">
   <link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
   <body>
     <header class="site-header">
+      
       <input type="button" id="input_button_bg_change" value="Change background color"/>
+      
       <div class="container">
         <form name="search">
-        <input type="text" name="key" placeholder="Введите имя">
+        <input type="text" name="key" placeholder="Имя">
+        <input type="text" name="key2" placeholder="Фамилия">
         <input type="button" name="print" value="Печать" />
         </form>
         <a><div id="Data"></div></a>
-<p><img src="myfoto.jpg" alt="моё фото"></p>
+        
+        <p><img src="myfoto.jpg" alt="моё фото"></p>
         <p>40 лет (родился 04 августа 1982), среднее специальное
 Москва, не готов к командировкам</p>
       </div>
     </header> 
     
-    <button class="accordion">Мой опыт работы</button>
-    <div class="panel">
-    <section class="last">
+    <details><summary><p4>Мой опыт работы</p4></summary>
       <h3>Продолжительность: 6 месяцев</h3>
       <p>Охранник</p>
       <p>Крупный бизнес-центр, Москв</p>
@@ -35,7 +38,6 @@
 (5—7 ситуаций в месяц).</p>
       <p>— Веду наблюдение за порядком на территории офиса с помощью системы мониторов (5 камер
 видеонаблюдения).</p>
-    </section>
 
       
     <section class="last">
@@ -47,20 +49,18 @@
       <p>- следил за соблюдением правопорядка;</p>
       <p>- урегулировал конфликтные ситуации.</p>
     </section>
-    </div>
+    </details>
 
-    <button class="accordion">Моё образование</button>
-  <div class="panel">
+    <details><summary><p4>Моё образование</p4></summary>
     <section class="learn">
       <h2>Образование</h2>
       <p>Технический пожарно-спасательный колледж № 57 имени Героя
 Российской Федерации В.М. Максимчука</p>
       <p>Специальность: Пожарная безопасность</p>
     </section>
-    </div>
+    </details>
     
-    <button class="accordion">Обо мне</button>
-  <div class="panel">
+    <details><summary><p4>Обо мне</p4></summary>
     <section class="about">
       <p>Профессиональные навыки:</p>
       <p>— опыт работы в силовых структурах или охранных предприятиях;</p>
@@ -71,7 +71,7 @@
       <p>Стрессоустойчивость, бдительность и оперативность позволяют мне быстро и эффективно действовать при возникновении
 нештатных ситуаций.</p>
     </section>
-    </div>
+    </details>
     
     <footer class="site-footer">
       <div class="container">
@@ -80,5 +80,6 @@
       </div>
     </footer>
   <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

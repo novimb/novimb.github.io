@@ -1,4 +1,5 @@
 body {
+color: #45131e;
 font-family: Tahoma, serif;
 }
 p {
@@ -38,3 +39,9 @@ a:hover {
   font-size: 40px;
 }
 
+#output {
+  top:0px;
+  left: 1000px;
+  position: absolute;
+  margin: 0px 100px 100px 0px;
+}
